@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppControllerData.cs" />
+    <Compile Include="BoxState.cs" />
     <Compile Include="FrmAddBox.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,9 +108,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Content Include="final_list.csv">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -170,6 +168,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\png-transparent-computer-icons-refresh-save-miscellaneous-blue-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\left.png" />
+    <Content Include="Resources\right.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
